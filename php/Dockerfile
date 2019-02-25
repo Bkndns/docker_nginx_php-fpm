@@ -2,7 +2,7 @@ FROM php:7.0-fpm
 
 # RUN yum update && yum install -y \
 
-RUN yum install -y \
+RUN apt-get update && apt-get install -y \
 curl \
 wget \
 git \
