@@ -1,6 +1,8 @@
 FROM php:7.0-fpm
 
-RUN yum update && yum install -y \
+# RUN yum update && yum install -y \
+
+RUN yum install -y \
 curl \
 wget \
 git \
