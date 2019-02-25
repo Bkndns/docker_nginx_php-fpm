@@ -7,7 +7,8 @@ services:
         image: nginx:latest
         container_name: nginx
         volumes:
-            - ./nginx/core:/etc/nginx/conf.d
+            #- ./nginx/core:/etc/nginx/conf.d
+            - ./nginx/core:/etc/nginx/
             # - ./nginx/core/nginx.conf:/etc/nginx/conf.d/nginx.conf
             - ./nginx/www:/var/www/
             - ./nginx/logs:/var/logs/nginx/
