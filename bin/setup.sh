@@ -13,9 +13,11 @@ systemctl enable docker
 
 usermod -aG docker $(whoami)
 
-docker run hello-world
+# docker run hello-world
 
 # docker run -it centos
+
+
 
 # --- ALTERNATE INSTALL ---
 
@@ -74,4 +76,4 @@ chmod +x ./bin/start.sh
 # START DOCKER UP
 
 cd ./bin/
-start.sh
+sh start.sh
