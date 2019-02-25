@@ -55,7 +55,7 @@ docker-compose --version
 # INSTALL GIT
 # INSTALL GIT
 
-dnf install git-all
+yum install git-all
 
 git --version
 
@@ -64,7 +64,7 @@ git --version
 # GIT CLONE COMPOSER STARTER KIT
 # GIT CLONE COMPOSER STARTER KIT
 
-git clone https://github.com/libgit2/libgit2
+git clone https://github.com/Bkndns/docker_nginx_php-fpm.git
 
 chmod +x ./bin/start.sh
 
@@ -75,5 +75,3 @@ chmod +x ./bin/start.sh
 
 cd ./bin/
 start.sh
-
-# curl https://gist.githubusercontent.com/Bkndns/c445e066c00a0b8beb863b3413e4a09a/raw/390e8d09183850a9a68155d4ad5b7a993fe6b676/setup-command.sh > qsetup.sh
