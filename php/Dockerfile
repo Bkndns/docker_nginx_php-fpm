@@ -11,7 +11,7 @@ libjpeg62-turbo-dev \
 libxslt-dev \
 libicu-dev \
 libmcrypt-dev \
-libpng12-dev \
+libpng-dev \
 libxml2-dev \
 && docker-php-ext-install -j$(nproc) iconv mcrypt mbstring mysqli pdo_mysql zip \
 && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
